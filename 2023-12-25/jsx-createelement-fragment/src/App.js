@@ -4,19 +4,19 @@ import {createElement} from "react";
 
 function App() {
 
-  return createElement("main",{
-      
-      id:"main",
-      className:"test"
-  },"Oluşturduğum html tagin içeriği");
+  const h1=createElement("h1",null,"h1 elementi");
 
-  // return (
-  //   <div className="App">
-  //     <main>
-  //       Denemelere devamke kanki
-  //     </main>
-  //   </div>
-  // );
+  return createElement("main",{    
+    id:"main",
+    className:"test"
+  },h1);
+
+  // return createElement("main",{
+      
+  //     id:"main",
+  //     className:"test"
+  // },"Oluşturduğum html tagin içeriği");
+
 }
 
 export default App;
