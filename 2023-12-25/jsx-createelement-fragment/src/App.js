@@ -10,7 +10,8 @@ function App() {
 
     // <Fragment>
           //Fragment nedir => normalde html taglerini bir root elementin sarmalaması lazım. Ama ben bir root elementin sarmalamasını istemiyorum. root elementi yerine fragment geldi. Bunun içinde yazınca sanki sarmalıyor gibi ama sarmalamamış şekilde kod çıktısı veriyor
-          
+
+        //  <></> bu da fragmentın kısa yolu boş bir şekilde
     // </Fragment>
 
     <main>
