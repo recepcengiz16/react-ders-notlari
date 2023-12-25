@@ -9,8 +9,8 @@ function App() {
   return (
     <main>
       <ul>
-         {todos.forEach(x=>(
-          <li>{x}</li>
+         {todos.map((x,index)=>(
+          <li key={index}>{x}</li>
          ))}
       </ul>
     </main>
@@ -22,8 +22,7 @@ function App() {
   //   className:"test"
   // },h1);
 
-  // return createElement("main",{
-      
+  // return createElement("main",{   
   //     id:"main",
   //     className:"test"
   // },"Oluşturduğum html tagin içeriği");
