@@ -1,5 +1,7 @@
-function Button(){
-    return <button>Merhaba</button>
+function Button(props){
+    return (
+        <button>{props.text}</button>
+    )
 }
 
 export default Button;

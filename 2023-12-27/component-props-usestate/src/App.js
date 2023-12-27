@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       jsx component olup olmadığını html etiketinin büyük harfle başlayıp başlamamasına bakarak anlıyor. Button button gibi 
 
-      <Button>merhaba</Button>
+      <Button text="Button Örneği"></Button>
     </div>
   );
 }
