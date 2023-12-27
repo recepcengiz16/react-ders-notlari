@@ -1,6 +1,12 @@
-function Button(props){
+// function Button(props){
+//     return (
+//         <button>{props.text}</button>
+//     )
+// }
+
+function Button({text}){ //destractive yapı ile props a ihtiyaç duymadan propslara erişebilirim.
     return (
-        <button>{props.text}</button>
+        <button>{text}</button>
     )
 }
 
